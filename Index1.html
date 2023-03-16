@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" action="register.php">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="enter name" required />
+      <br /><br />
+      <label for="Email">Email:</label>
+      <input
+        type=" text"
+        id="Email"
+        placeholder="name@example.com"
+        required /><br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        minlength="8"
+        placeholder="********"
+        required /><br /><br />
+      <fieldset>
+        <legend>Referrer</legend>
+        <input type="radio" id="TV" name="TV" value="TV" />
+        <label for="TV">TV</label><br>
+        <input type="radio" id="internet" name="internet" value="internet" />
+        <label for="internet">Internet</label><br>
+        <input type="radio" id="none" name="none" value="none" checked />
+        <label for="none">None</label>
+      </fieldset>
+      <br /><br />
+      <input type="checkbox" id="terms" name="terms" required />
+      <label for="terms">I accept the <a href="#">terms of service</a> </label
+      ><br /><br />
+      <button type="submit" id="submit">Register</button>
+    </form>
+  </body>
+</html>
