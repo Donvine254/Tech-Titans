@@ -1,0 +1,39 @@
+body {
+  background-image: url(./2314983.webp);
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+body h1#welcome {
+  display: inline;
+  justify-self: center;
+  text-align: center;
+}
+legend {
+  text-align: center;
+  font-size: larger;
+}
+fieldset {
+  background-color: rgb(170, 217, 235);
+}
+.personal-information {
+  background-color: rgb(170, 217, 235);
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
