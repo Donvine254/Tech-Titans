@@ -1,0 +1,86 @@
+body {
+  /*background-image: url(/images/chesser.jpg);*/
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1001/956/desktop-wallpaper-purple-aesthetic-laptop-dark-purple-aesthetic-landscape.jpg);
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  margin-left: 25%;
+  margin-right: 25%;
+  color:white;
+}
+body h1#welcome {
+  text-align: center;
+}
+form{
+  background-color:skyblue;
+  border-radius: 5px;
+}
+legend {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  background:green;
+}
+fieldset {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  border:dotted;
+
+}
+.personal-information {
+  font-weight: bold;
+  font-size: inherit;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+.personal-information input{
+  font-size: larger;
+  width: 45vw;
+  height: 45px;
+  border-radius: 5px;
+  border: groove;
+  
+}
+label{
+  font-size: larger;
+
+}
+input[type="radio"] {
+  transform: scale(2);
+}
+input[type="checkbox"]{
+transform:scale(2);
+border-radius: 5px;
+
+}
+label:last-of-type{
+  font-size: larger;
+}
+button:first-of-type{
+  transform:scale(1.5)
+}
+.buttons{
+  width:200px;
+  display:flex;
+  align-items: center;
+  
+}
+.buttons label{
+  margin-left:20px;
+}
